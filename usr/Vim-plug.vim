@@ -115,7 +115,6 @@ nmap f <Plug>(easymotion-overwin-f)
 " ===
 " Need to install app, under the plugin dirctory
 " add *.txt in the plugin folder mkdp.vim, Because it uses file detection.
-" source ~/AppData/Local/nvim/usr/markdown_map.vim
 autocmd fileType markdown map <M-c> <Plug>MarkdownPreview
 let g:mkdp_browser = 'chrome'
 let g:mkdp_port = '8888'
@@ -151,6 +150,8 @@ let g:tagbar_ctags_bin = '~/AppData/Local/nvim-data/ctags58/ctags.exe'
 	" \ 'coc-json',
 	" \ 'coc-vimlsp',
 	" \ 'coc-emmet',
+	" \ 'coc-html',
+	" \ 'coc-powershell',
 	" \ 'coc-snippets']
 function! s:check_back_space() abort
   let col = col('.') - 1
@@ -165,7 +166,7 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 map = <Plug>(coc-diagnostic-next-error)
 map - <Plug>(coc-diagnostic-prev-error)
 
-" === coc-snippets & vim-snippets
+" = coc-snippets & vim-snippets
 " imap <C-l> <Plug>(coc-snippets-expand)
 " vmap <C-e> <Plug>(coc-snippets-select)
 " let g:coc_snippet_next = '<c-e>'

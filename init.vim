@@ -10,6 +10,7 @@
 " ============================== User ==============================
 source ~/AppData/Local/nvim/usr/Common_Settings.vim
 source ~/AppData/Local/nvim/usr/Keyboard_Settings.vim
+source ~/AppData/Local/nvim/usr/markdown_map.vim
 source ~/AppData/Local/nvim/usr/Vim-plug.vim
 
 
