@@ -39,4 +39,8 @@ source ~/AppData/Local/nvim/usr/Vim-plug.vim
 " CTRL-W_f CTRL-W_gf
 " = pattern.txt
 " /  n/N  gd  */#
+" = diff.txt
+" [c ]c do dp
+" = fold.txt
+" za zc/zC zo/zO	 zj zk [z ]z
 

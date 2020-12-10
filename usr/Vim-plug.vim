@@ -129,7 +129,7 @@ let g:mkdp_port = '8888'
 " === FZF
 " ===
 " You can use CTRL-J/K or CTRL-N/P to select up and down.
-nmap <C-p> :Files<Space>E:<CR>
+nmap <C-p> :Files<Space>~<CR>
 " nmap <C-e> :Buffers<CR>
 " let g:fzf_preview_window = ''
 
