@@ -42,7 +42,7 @@ map <Space>l <C-w>l
 map <up> :res +5<CR>
 map <down> :res -5<CR>
 map <left> :vertical resize-5<CR>
-map <right> :vertical resize+5<CRk
+map <right> :vertical resize+5<CR>
 
 " Search character
 " map = n
