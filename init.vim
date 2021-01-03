@@ -18,7 +18,8 @@ source ~/AppData/Local/nvim/usr/Vim-plug.vim
 " = change.txt
 " {motion}J		yy Y y{motino}select a line of charter, can be paste on the Cursor line.
 " >> >{motion} {Visual}[count]>
-" :Substitute
+" CTRL-A/X
+" :substitute	:global
 " = Insert.txt
 " i_CTRL-R == "registers
 " i_CTRL-J i_CTRL-M		i_CTRL-H
@@ -30,9 +31,9 @@ source ~/AppData/Local/nvim/usr/Vim-plug.vim
 " = editing.txt
 " CTRL-G g_CTRL-G	gf
 " = visual.txt
-" v_u/U
+" U/v_u
 " = various.txt
-" K
+" K/v_K
 
 " === Advanced editing ===
 " = windows.txt
@@ -42,5 +43,5 @@ source ~/AppData/Local/nvim/usr/Vim-plug.vim
 " = diff.txt
 " [c ]c do dp
 " = fold.txt
-" za zc/zC zo/zO	 zj zk [z ]z
+" za zc/zC zo/zO	zj zk [z ]z
 
