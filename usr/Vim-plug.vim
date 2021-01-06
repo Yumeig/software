@@ -197,8 +197,8 @@ map - <Plug>(coc-diagnostic-prev-error)
 " ===
 let g:VM_leader                     = {'default': ',', 'visual': ',', 'buffer': ','}
 let g:VM_maps                       = {}
-let g:VM_maps["Undo"]               = 'u'
-let g:VM_maps["Redo"]               = '<C-y>'
+" let g:VM_maps["Undo"]               = 'u'
+" let g:VM_maps["Redo"]               = '<C-y>'
 let g:VM_maps['Find Under']         = '<C-d>'
 let g:VM_maps['Find Subword Under'] = '<C-d>'
 let g:VM_maps['Remove Region']      = '<C-d>'
