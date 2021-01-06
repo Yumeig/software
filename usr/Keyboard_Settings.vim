@@ -12,12 +12,13 @@ map <C-r> :source $MYVIMRC<CR>
 vmap <C-c> "*y<Esc>
 " map <C-v> "*p
 imap <C-v> <C-r>*
+cmap <C-v> <C-r>*
 " <C-r>==:redo | u==:undo
 map <C-y> :redo<CR>
 map <C-z> :undo<CR>
 " change line
-map <C-Up> ddkP
-map <C-Down> ddp
+map <M-Down> ddp
+map <M-Up> ddkP
 
 " Tabpage.txt
 map tw :tabnew<CR>
@@ -52,9 +53,9 @@ map <LEADER><CR> :nohlsearch<CR>
 map sp :set spell!<CR>
 
 " === Insert mode ===
-" imap [ []<Esc>i
+" imap [ []<Esr>i
 " imap { {}<Esc>i
-" imap ( ()<Esc>i
+" imap ( ()<Esc>r
 " Matching keyword
 " imap <Tab> <C-n>
 " imap <S-Tab> <C-p>

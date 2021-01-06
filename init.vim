@@ -36,6 +36,8 @@ source ~/AppData/Local/nvim/usr/Vim-plug.vim
 " K/v_K
 
 " === Advanced editing ===
+" = cmdline.txt
+" c_CTRL-R
 " = windows.txt
 " CTRL-W_f CTRL-W_gf
 " = pattern.txt
